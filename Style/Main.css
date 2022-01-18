@@ -1,0 +1,62 @@
+/* Main Section */
+
+section {
+  background: linear-gradient(130deg, var(--main-blue), rgb(209, 45, 45));
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main {
+  overflow: hidden;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  color: var(--main-green);
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main-content h1 {
+  font-size: 6rem;
+  color: var(--main-green);
+  margin-bottom: 2rem;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  color: var(--main-green);
+  margin-bottom: 3rem;
+}
+
+.web-btn {
+  background-color: var(--main-green);
+  width: 30%;
+  height: 3.2rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.1rem;
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+
+.web-btn h2 {
+  color: var(--main-blue);
+  font-weight: bold;
+}
+
+.web-btn:hover {
+  transform: scale(1.05);
+}
